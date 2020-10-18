@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".CuentoDos">
+
+    <ImageView
+        android:id="@+id/imgPortada"
+        android:layout_width="1237dp"
+        android:layout_height="1217dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997"
+        app:srcCompat="@drawable/portada_zorro" />
+
+    <TextView
+        android:id="@+id/textCuento"
+        android:layout_width="382dp"
+        android:layout_height="48dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:shadowColor="#FFFFFF"
+        android:text="Erase una vez un zorro con mucho miedo que vivía permanentemente huyendo de todo. En la huída siempre se caía y se volvía a levantar."
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471" />
+
+    <TextView
+        android:id="@+id/textCuentoDos"
+        android:layout_width="383dp"
+        android:layout_height="51dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:text="Un buen día, otro zorro le preguntó: “Querido amigo. ¿Qué te ha ocurrido que sea tan grave para tener tanto miedo y huir constantemente?”  "
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.584" />
+
+    <TextView
+        android:id="@+id/textCuentoTres"
+        android:layout_width="382dp"
+        android:layout_height="37dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:text="El zorro temeroso contestó: “He oído que someten con violencia a los camellos”."
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.681" />
+
+    <TextView
+        android:id="@+id/textCuentoCuatro"
+        android:layout_width="382dp"
+        android:layout_height="48dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:text="Entonces. ¿Por qué huyes? No entiendo muy bien ¿En qué te pareces tú a los camellos para querer huir? respondió el amigo."
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.784" />
+
+    <TextView
+        android:id="@+id/textCuentoCinco"
+        android:layout_width="382dp"
+        android:layout_height="48dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:text="Y el zorro quisquilloso prosiguió: “Calla, tengo miedo de que los envidiosos digan de mi que soy un camello y ser atrapado. En ese caso, ¿quién se molestaría en conocer mi propia identidad para salvarme?"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

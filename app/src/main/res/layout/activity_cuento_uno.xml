@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".CuentoUno">
+
+    <ImageView
+        android:id="@+id/imgPortada"
+        android:layout_width="1237dp"
+        android:layout_height="1217dp"
+        android:layout_marginBottom="116dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.813"
+        app:srcCompat="@drawable/portada_gato" />
+
+    <TextView
+        android:id="@+id/textCuentoCuatro"
+        android:layout_width="368dp"
+        android:layout_height="167dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:text="La más mayor e inteligente de las ratas tuvo una idea y la expuso a sus compañeros: “Amigos, nuestro mal puede tener remedio. Si le atamos un cascabel al gato en el cuello, podremos escuchar cuando se acerca y tendremos tiempo para huir antes de que nos asuste”. A todas las ratas y ratones les pareció una magnífica idea y tenían claro que esa era la solución ideal. De forma unánime aplaudieron entusiasmados la propuesta. Pasados unos instantes, las ratas y ratones fueron reaccionando ¿Quién le pondría el cascabel al gato?"
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971" />
+
+    <TextView
+        android:id="@+id/textCuentoTres"
+        android:layout_width="375dp"
+        android:layout_height="70dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:text="Rodilardo también estaba interesado en encontrar una linda gatita para casarse y se paseaba por los tejados con asiduidad buscando a la que sería su esposa. Un buen día, mientras él se encontraba en estos menesteres, los ratones y ratas se reunieron para hablar y buscar remedios a su miedo."
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709" />
+
+    <TextView
+        android:id="@+id/textCuentoDos"
+        android:layout_width="375dp"
+        android:layout_height="70dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:text="Durante algunos ratos del día, el gato se dedicaba a vigilar las madrigueras donde las ratas y ratones se escondían para mantenerse a salvo. Esos pequeños animalitos le temían mucho."
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <TextView
+        android:id="@+id/textCuento"
+        android:layout_width="375dp"
+        android:layout_height="70dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:text="Erase una vez un gato muy pillo conocido por su peculiar nombre; Rodilardo se llamaba. El travieso gato era el temor de todas las ratas y ratones de la aldea donde vivía, pues le encantaba disfrutar cazándolas."
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+</androidx.constraintlayout.widget.ConstraintLayout>
